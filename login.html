@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./ific_bank.jpg" type="image/x-icon">
+    <title>ACCOUNT INFORMATION</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="container mx-auto bg-slate-100">
+
+    <header>
+        <h1 class="text-2xl lg:text-5xl font-bold lg:font-black text-black text-center mt-9">ACCOUNT INFORMATION</h1>
+    </header>
+
+    <section class="w-1/2 mx-auto mt-7">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="bg-green-400 text-white p-5 rounded-lg">
+                <h1 class="text-2xl">Deposit</h1>
+                <p class="text-4xl">$00</p>
+            </div>
+            <div class="bg-yellow-400 text-white p-5 rounded-lg">
+                <h1 class="text-2xl">Withdraw</h1>
+                <p class="text-4xl">$00</p>
+            </div>
+            <div class="bg-purple-400 text-white p-5 rounded-lg">
+                <h1 class="text-2xl">Balance</h1>
+                <p class="text-4xl">$1240</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="w-full px-1 md:w-1/2 md:mx-auto mt-7">
+
+        <div class="grid grid-cols-2 md:grid-cols-2 gap-4">
+            <div class="bg-pink-400 text-white p-5 rounded-lg">
+                <h1 class="text-base md:text-2xl">Please Deposit</h1>
+                <input class="p-1 md:p-2 block rounded-lg w-full md:w-4/5 lg:w-3/4 my-2 text-black" type="" placeholder="$ Amount you want to deposit💳" name="" id="deposit-field">
+                <button id="deposit-btn" class="bg-white text-pink-600 px-8 py-2 mt-2 rounded-lg hover:bg-sky-700 hover:text-white">Deposit</button>
+            </div>
+            <div class="bg-sky-400 text-white p-5 rounded-lg">
+                <h1 class="text-base md:text-2xl">Please Withdraw</h1>
+                <input class="p-1 md:p-2 block rounded-lg w-full md:w-4/5 lg:w-3/4 my-2 text-black" type="" placeholder="$ Amount you want to withdraw💳" name="" id="withdraw-field">
+        <button id="withdraw-btn" class="bg-white text-sky-600 px-8 py-2 mt-2 rounded-lg hover:bg-sky-700 hover:text-white">Withdraw</button>
+            </div>
+            
+        </div>
+
+    </section>
+    
+</body>
+</html>
